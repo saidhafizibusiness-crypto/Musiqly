@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Musiqly — Your Song. Your Instrument. Your Level.</title>
+    <meta
+      name="description"
+      content="Musiqly transforms any YouTube song into beginner, intermediate, and pro arrangements tailored to your instrument. Join the waitlist for early access."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="header" id="top">
+        <div class="container">
+          <a class="logo" href="#top" aria-label="Musiqly home">
+            <span class="logo__icon" aria-hidden="true">&#9835;</span>
+            <span class="logo__wordmark">Musiqly</span>
+          </a>
+          <nav class="nav" aria-label="Primary navigation">
+            <a href="#features">How it works</a>
+            <a href="#instruments">Instruments</a>
+            <a href="#testimonials">Why musicians love us</a>
+            <a href="#waitlist" class="nav__cta">Join waitlist</a>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div class="container hero__content">
+            <div class="hero__copy">
+              <p class="eyebrow">AI arrangements for every instrument</p>
+              <h1>
+                Learn any song
+                <span class="text-gradient">at your level</span>
+              </h1>
+              <p class="lead">
+                Drop a YouTube link. Musiqly instantly crafts beginner, intermediate, and
+                pro sheet music and play-along tracks tailored to your instrument—piano,
+                sax, guitar, harp, violin, you name it.
+              </p>
+              <div class="hero__actions">
+                <button class="button button--primary" id="hero-cta" data-track="hero">
+                  Join the waitlist
+                </button>
+                <button class="button button--ghost" id="demo-button">See how it works</button>
+              </div>
+              <p class="microcopy" id="click-count" aria-live="polite"></p>
+              <div class="hero__social-proof">
+                <div class="avatars" aria-hidden="true">
+                  <span class="avatar"></span>
+                  <span class="avatar"></span>
+                  <span class="avatar"></span>
+                </div>
+                <p>
+                  Trusted by <strong>1,200+ musicians</strong> beta-testing Musiqly across 38 instruments.
+                </p>
+              </div>
+            </div>
+            <div class="hero__visual" aria-hidden="true">
+              <div class="floating-emoji floating-emoji--piano">🎹</div>
+              <div class="floating-emoji floating-emoji--guitar">🎸</div>
+              <div class="floating-emoji floating-emoji--violin">🎻</div>
+              <div class="floating-emoji floating-emoji--sax">🎷</div>
+              <div class="floating-emoji floating-emoji--harp">🎼</div>
+              <div class="device-card">
+                <div class="device-card__header">
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                </div>
+                <div class="device-card__body">
+                  <h2>Paste a YouTube link</h2>
+                  <div class="demo-input">
+                    <span>youtube.com/watch?v=</span>
+                    <span class="cursor"></span>
+                  </div>
+                  <ul class="demo-tiers">
+                    <li>
+                      <span class="tier-label">Beginner</span>
+                      <span class="tier-detail">Simplified chords • slow tempo</span>
+                    </li>
+                    <li>
+                      <span class="tier-label">Intermediate</span>
+                      <span class="tier-detail">Expressive dynamics • ornamentation</span>
+                    </li>
+                    <li>
+                      <span class="tier-label">Pro</span>
+                      <span class="tier-detail">Full arrangement • performance ready</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="features">
+          <div class="container grid grid--features">
+            <div class="section__intro">
+              <p class="eyebrow">The Musiqly flow</p>
+              <h2>From inspiration to performance in three effortless steps</h2>
+              <p>
+                Upload any YouTube song and select your instrument. Musiqly’s AI arrangement engine
+                translates audio into note-perfect scores and practice tracks, calibrated to your skill level.
+              </p>
+            </div>
+            <div class="feature-card">
+              <h3>1. Capture the song</h3>
+              <p>
+                Our audio intelligence cleans and enhances the original track, isolating each musical voice so we can transcribe it faithfully.
+              </p>
+            </div>
+            <div class="feature-card">
+              <h3>2. Tailor to your instrument</h3>
+              <p>
+                Guitar tabs, piano scores, brass charts, harp fingering guides—Musiqly adapts voicings and articulations to suit how you play.
+              </p>
+            </div>
+            <div class="feature-card">
+              <h3>3. Level up intentionally</h3>
+              <p>
+                Beginner, intermediate, and pro arrangements with guided practice tempos, fingerings, and smart feedback keep you improving fast.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="section section--accent" id="demo">
+          <div class="container grid grid--demo">
+            <div>
+              <h2>Imagine this on your stand tonight</h2>
+              <p>
+                Drop in the solo you’ve dreamed of playing. Musiqly converts it into step-by-step sheets, MIDI, and video lessons with live fingering overlays.
+              </p>
+              <ul class="checklist">
+                <li>AI powered sheet music, tabs, and lead sheets</li>
+                <li>Adaptive tempo trainer and metronome sync</li>
+                <li>Practice analytics, streaks, and progress sharing</li>
+              </ul>
+              <button class="button button--primary" data-track="demo">
+                Secure my spot
+              </button>
+            </div>
+            <div class="demo-card" aria-hidden="true">
+              <div class="demo-card__header">
+                <span class="badge">Preview</span>
+                <p>"City of Stars" — Piano</p>
+              </div>
+              <div class="demo-card__body">
+                <div class="demo-card__staff"></div>
+                <div class="demo-card__progress">
+                  <span>Beginner</span>
+                  <div class="progress-bar"><span style="width: 42%"></span></div>
+                  <span>Pro</span>
+                </div>
+              </div>
+              <div class="demo-card__footer">
+                <p>Swipe to switch difficulty</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="instruments">
+          <div class="container">
+            <div class="section__intro section__intro--center">
+              <p class="eyebrow">Any instrument. Any genre.</p>
+              <h2>Arrange for over <span class="text-gradient">40+</span> instruments instantly</h2>
+              <p>
+                From orchestral to electronic, Musiqly understands each instrument’s range, technique, and style so you get parts that feel human-crafted.
+              </p>
+            </div>
+            <div class="pill-cloud" role="list">
+              <span role="listitem">🎹 Piano</span>
+              <span role="listitem">🎸 Electric Guitar</span>
+              <span role="listitem">🎻 Violin</span>
+              <span role="listitem">🎷 Saxophone</span>
+              <span role="listitem">🪕 Banjo</span>
+              <span role="listitem">🎺 Trumpet</span>
+              <span role="listitem">🪈 Flute</span>
+              <span role="listitem">🥁 Drums</span>
+              <span role="listitem">🪗 Accordion</span>
+              <span role="listitem">🎼 Harp</span>
+              <span role="listitem">🪘 Percussion</span>
+              <span role="listitem">🎤 Vocals</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="testimonials">
+          <div class="container grid grid--testimonials">
+            <div class="section__intro">
+              <p class="eyebrow">Musicians are already raving</p>
+              <h2>"Musiqly is the coach I always needed."</h2>
+            </div>
+            <article class="testimonial">
+              <p>
+                “I uploaded a Coltrane solo and Musiqly returned three versions with altissimo fingerings and embouchure tips. I’ve never improved this fast.”
+              </p>
+              <footer>
+                <strong>Jules Harper</strong>
+                <span>Pro saxophonist & educator</span>
+              </footer>
+            </article>
+            <article class="testimonial">
+              <p>
+                “My students finally feel confident tackling chart-topping songs. The beginner mode breaks it down so even day-one players can jam.”
+              </p>
+              <footer>
+                <strong>Amelia Stone</strong>
+                <span>Piano teacher, London</span>
+              </footer>
+            </article>
+            <article class="testimonial">
+              <p>
+                “The waitlist should be full already. This is the first tool that gives harpists modern repertoire without endless manual arranging.”
+              </p>
+              <footer>
+                <strong>Linh Tran</strong>
+                <span>Principal harpist, SF Pops</span>
+              </footer>
+            </article>
+          </div>
+        </section>
+
+        <section class="section section--dark" id="waitlist">
+          <div class="container">
+            <div class="waitlist-card">
+              <div>
+                <p class="eyebrow">Secure your invite</p>
+                <h2>Be first to play the impossible</h2>
+                <p>
+                  Join thousands of musicians eager to transform their favorite songs into personalized arrangements.
+                  Enter your email to receive the private beta invite.
+                </p>
+              </div>
+              <form class="waitlist-form" id="waitlist-form" novalidate>
+                <label class="sr-only" for="email">Email address</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="you@example.com"
+                  autocomplete="email"
+                  required
+                />
+                <button type="submit" class="button button--primary" data-track="waitlist">
+                  Join the waitlist
+                </button>
+                <p class="form-feedback" id="form-feedback" role="status" aria-live="polite"></p>
+              </form>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="container footer__content">
+          <a class="logo" href="#top" aria-label="Musiqly home">
+            <span class="logo__icon" aria-hidden="true">&#9835;</span>
+            <span class="logo__wordmark">Musiqly</span>
+          </a>
+          <p>© <span id="year"></span> Musiqly. Crafted for musicians by musicians.</p>
+          <div class="footer__links">
+            <a href="#features">Features</a>
+            <a href="#waitlist">Waitlist</a>
+            <a href="mailto:hello@musiqly.app">Contact</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <div class="modal" id="demo-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden>
+      <div class="modal__backdrop"></div>
+      <div class="modal__content">
+        <button class="modal__close" type="button" aria-label="Close demo" id="modal-close">×</button>
+        <h2 id="modal-title">See Musiqly in action</h2>
+        <p>
+          Watch how Musiqly transforms any song into multi-level arrangements. Drop your email on the waitlist and we’ll send you the exclusive demo first.
+        </p>
+        <button class="button button--primary" data-track="modal">
+          Join the waitlist
+        </button>
+      </div>
+    </div>
+
+    <script src="assets/js/main.js" defer></script>
+  </body>
+</html>
